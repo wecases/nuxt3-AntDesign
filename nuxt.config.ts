@@ -3,6 +3,7 @@ import { defineNuxtConfig } from 'nuxt3';
 import IconsResolver from 'unplugin-icons/resolver';
 import Components from 'unplugin-vue-components/vite';
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
+import { visualizer } from "rollup-plugin-visualizer";
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -19,6 +20,7 @@ export default defineNuxtConfig({
                     })
                 ],
             }),
+            visualizer(),
         ]
     },
     build: {
