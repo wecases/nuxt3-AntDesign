@@ -13,6 +13,7 @@
         "unplugin-vue-components": "^0.17.21"
     },
     "dependencies": {
+        "@antv/g2plot": "^2.4.9",
         "ant-design-vue": "^3.0.0-beta.13"
     }
 }
