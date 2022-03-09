@@ -7,6 +7,11 @@
         "deploy": "nuxi build && node .output/server/index.mjs"
     },
     "devDependencies": {
-        "nuxt3": "latest"
+        "nuxt3": "latest",
+        "unplugin-icons": "^0.13.3",
+        "unplugin-vue-components": "^0.17.21"
+    },
+    "dependencies": {
+        "ant-design-vue": "^3.0.0-beta.13"
     }
 }
