@@ -1,5 +1,5 @@
 <template>
-    <div class="w-1/2 my-0 mx-auto">
+    <div class="">
         <charts-line :data="data" />
         <div class="text-red-600">
             <span>x:</span>

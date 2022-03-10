@@ -1,33 +1,23 @@
 import { defineNuxtConfig } from 'nuxt3';
 
-import IconsResolver from 'unplugin-icons/resolver';
-import Components from 'unplugin-vue-components/vite';
-import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
 import { visualizer } from "rollup-plugin-visualizer";
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
     vite: {
         plugins: [
-            Components({
-                dts: true,
-                resolvers: [
-                    IconsResolver({
-                        prefix: 'i'
-                    }),
-                    AntDesignVueResolver({
-                        resolveIcons: true
-                    })
-                ],
-            }),
             visualizer(),
         ]
     },
     build: {
         transpile: [
-            'moment', 'compute-scroll-into-view', 'ant-design-vue',
-        ],
+            'moment', 'compute-scroll-into-view', '@arco-design',
+        ]
     },
+    components: [
+        '~/components',
+        { path: 'node_modules/@arco-design/web-vue/es/', prefix: 'a' }
+    ],
     buildModules: [
         /**
          * @see https://cn.windicss.org/integrations/nuxt.html
@@ -42,13 +32,4 @@ export default defineNuxtConfig({
          */
         '@pinia/nuxt',
     ],
-    typescript: {
-        tsConfig: {
-            compilerOptions: {
-                types: [
-                    "@pinia/nuxt"
-                ]
-            }
-        }
-    }
 });
