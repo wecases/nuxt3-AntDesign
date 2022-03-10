@@ -37,5 +37,18 @@ export default defineNuxtConfig({
          * @see https://vueuse.org/guide/#installation
          */
         '@vueuse/nuxt',
+        /**
+         * @see https://pinia.vuejs.org/ssr/nuxt.html#installation
+         */
+        '@pinia/nuxt',
     ],
+    typescript: {
+        tsConfig: {
+            compilerOptions: {
+                types: [
+                    "@pinia/nuxt"
+                ]
+            }
+        }
+    }
 });

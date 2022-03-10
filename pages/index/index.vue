@@ -9,6 +9,10 @@
             <span>y:</span>
             <span>{{ y }}</span>
         </div>
+        <div class="text-green-600">
+            <span>user:</span>
+            <span>{{ user.username }}</span>
+        </div>
     </div>
 </template>
 <script setup lang="ts">
@@ -20,4 +24,6 @@ const data = [
     { year: '1957 年', sales: 145 },
     { year: '1958 年', sales: 48 },
 ]
+
+const user = userStore() // use pinia is esay
 </script>

@@ -5,6 +5,7 @@
         "yessz.git-cz-emoji-vsc",
         "esbenp.prettier-vscode",
         "johnsoncodehk.volar",
-        "formulahendry.auto-complete-tag"
+        "formulahendry.auto-complete-tag",
+        "wix.vscode-import-cost"
     ]
 }
