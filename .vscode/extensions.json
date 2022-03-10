@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "voorjaar.windicss-intellisense",
+        "dbaeumer.vscode-eslint",
+        "yessz.git-cz-emoji-vsc",
+        "esbenp.prettier-vscode",
+        "johnsoncodehk.volar",
+        "formulahendry.auto-complete-tag"
+    ]
+}
