@@ -28,4 +28,10 @@ export default defineNuxtConfig({
             'moment', 'compute-scroll-into-view', 'ant-design-vue',
         ],
     },
+    buildModules: [
+        /**
+         * @see https://cn.windicss.org/integrations/nuxt.html
+         */
+        'nuxt-windicss',
+    ],
 });

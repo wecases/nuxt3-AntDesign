@@ -1,5 +1,5 @@
 <template>
-    <div class="" style="width: 50%; margin: 0 auto">
+    <div class="w-1/2 my-0 mx-auto">
         <charts-line></charts-line>
     </div>
 </template>
