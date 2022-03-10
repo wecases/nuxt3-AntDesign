@@ -26,4 +26,5 @@ const data = [
 ]
 
 const user = userStore() // use pinia is esay
+user.username = 'wasets' // see cookie store
 </script>

@@ -764,6 +764,13 @@
     unplugin "^0.4.0"
     vite "^2.8.6"
 
+"@pinia/nuxt@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.npmmirror.com/@pinia/nuxt/-/nuxt-0.1.8.tgz#457a87b0f39ae47a1306e08ab7d4d390b30b48c9"
+  integrity sha512-+M1GH/4XQdooOulPL7aYzli6UE1R5rWJtgcPhx2/97yYRLhKZvuIT33OauUCjYZ+tQVs8lyKfzt6S2agqzcmWg==
+  dependencies:
+    vue-demi "*"
+
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
   resolved "https://registry.npmmirror.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
@@ -1025,7 +1032,7 @@
     "@vue/compiler-dom" "3.2.31"
     "@vue/shared" "3.2.31"
 
-"@vue/devtools-api@^6.0.0":
+"@vue/devtools-api@^6.0.0", "@vue/devtools-api@^6.0.0-beta.21":
   version "6.0.13"
   resolved "https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.0.13.tgz#33f8debe2d0239903b6fc8af10ace45ed3a4fab1"
   integrity sha512-T34EjcArVqzANedEZe2kXQ+AZsld2z1ptJlkOGm87+blk+s6udnP4ze/NYqV8lz1o9AIivimN0xxteLlWiWQdg==
@@ -4038,6 +4045,19 @@ pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmmirror.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
+
+pinia-plugin-persistedstate@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.npmmirror.com/pinia-plugin-persistedstate/-/pinia-plugin-persistedstate-1.5.1.tgz#9ea81e5a245e87941c750fdb5eb303bab399427b"
+  integrity sha512-X0jKWvA3kbpYe8RuIyLaZDEAFvsv3+QmBkMzInBHl0O57+eVJjswXHnIWeFAeFjktrE0cJbGHw2sBMgkcleySQ==
+
+pinia@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.npmmirror.com/pinia/-/pinia-2.0.11.tgz#ff03c714f5e5f16207280a4fc2eab01f3701ee2b"
+  integrity sha512-JzcmnMqu28PNWOjDgEDK6fTrIzX8eQZKPPKvu/fpHdpXARUj1xeVdFi3YFIMOWswqaBd589cpmAMdSSTryI9iw==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.21"
+    vue-demi "*"
 
 pkg-types@^0.3.2:
   version "0.3.2"
