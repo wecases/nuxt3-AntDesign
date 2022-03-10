@@ -33,5 +33,9 @@ export default defineNuxtConfig({
          * @see https://cn.windicss.org/integrations/nuxt.html
          */
         'nuxt-windicss',
+        /**
+         * @see https://vueuse.org/guide/#installation
+         */
+        '@vueuse/nuxt',
     ],
 });
